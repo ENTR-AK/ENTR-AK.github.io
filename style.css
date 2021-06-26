@@ -1,0 +1,61 @@
+h1 {font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+	font-size: 72px; 
+	color: white;
+	font-weight: 100;
+}
+
+p {font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+ 	font-size: 24px;
+	color: #ffffff;
+	text-align: center;
+	float: center;
+}
+
+body {
+	margin:0;
+	padding:0;
+	height: 100%;
+	width: 100%;
+	background: url(Shanghai.png) no-repeat center center fixed;
+	background-color: #0b0b0b;
+	background-size: cover; 
+}
+
+#container {
+	cursor: pointer;
+	position: fixed;
+	bottom: 2%;
+	right: 2%;
+    	display: inline-block;
+}
+
+#logo {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#twitter {
+	position: fixed;
+	top: 75%;
+	left: 40%;
+	transform: translate(-50%, -50%);
+}
+#discord {
+	position: fixed;
+	top: 75%;
+	left: 45%;
+	transform: translate(-50%, -50%);
+}
+#twitch {
+	position: fixed;
+	top: 75%;
+	left: 55%;
+	transform: translate(-50%, -50%);
+}
+#youtube {
+	position: fixed;
+	top: 75%;
+	left: 60%;
+	transform: translate(-50%, -50%);
+}
